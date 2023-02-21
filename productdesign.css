@@ -1,0 +1,140 @@
+body,html{
+            
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.containerr-fluid{
+    height: 100%;
+    /* width: 100%; */
+    /* background-color: blue; */
+    position: relative;
+    top: 60px;
+}
+.image-content{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px;
+
+}
+.content{
+    height: 700px;
+    width: 60%;
+    background-color: white;
+    float: right;
+    display: inline;
+    overflow-y: scroll;
+    padding-top: 30px;
+
+}
+.image{
+    height: 400px;
+    width: 450px;
+    /* background-color: blueviolet; */
+    border: 1px solid pink;
+    padding: 5px;
+
+}
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+.product-name{
+    color: black;
+    font-size: 30px;
+    /* margin-left: 20px; */
+}
+.rating-p{
+    height: 20px;
+    width: 35px;
+    /* margin-left: 20px; */
+}
+.price{
+    font-size: 35px;
+    /* margin-left: 20px; */
+    color: black;
+
+}
+.no_of_items{
+    font-size: 15px;
+    /* margin-left: 20px; */
+    color: green;
+}
+.loc_check{
+    font-size: 15px;
+    margin-right: 50px;
+    color: black;
+}
+.pincode{
+    height: 50px;
+    width: 250px;
+    outline: none;
+    
+    /* padding-left: 10px; */
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.shipping-time{
+    font-size: 15px;
+    /* margin-left: 20px; */
+    color: black;
+}
+.p-details{
+    font-size: 30px;
+    /* margin-left: 20px; */
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+@media (max-width:700px) {
+    .image-content{
+        width:100%;
+    }
+    .content{
+        width: 100%;
+        padding: 20px;
+    }
+    
+}
+.nav1-1{
+    
+    height: 60px;
+    width: 100%;
+    background-color: rgb(47,46,46);
+}
+.nav1-1 ul{
+    float: right;
+    /* background-color: blueviolet; */
+}
+.nav1-1 ul li{
+    display: inline;
+    padding-right: 50px;
+    color: white;
+    line-height: 60px;
+    font-size: 20px;
+}
+.logo{
+    display: inline;
+    float: left;
+    line-height: 60px;
+    color: white;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 5px;
+  
+}
+
+
+
+#product_page{
+    display: none;
+}

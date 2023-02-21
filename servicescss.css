@@ -1,0 +1,54 @@
+.containerr-services{
+    height: 100%;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(47,46,46);
+    /* width: 100%; */
+
+}
+.containerr-services .container{
+    width: 60%;
+    /* height: 350px; */
+    background-color: rgb(68, 219, 189)
+}
+.img-1{
+    height: 100%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.img{
+    height: 100%;
+    width: 40%;
+    /* background-color: pink; */
+    float: left;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+}
+.content{
+    height: 650px;
+    width: 60%;
+    /* background-color: cornflowerblue; */
+    float: right;
+    padding: 15px;
+}
+.buy{
+    height: 250px;
+    width: 40%;
+    /* background-color: darkblue; */
+    float: left;
+}
+.content-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.services_page{
+    display: none;
+    background-color: rgb(47,46,46);
+    height: 100%;
+    width: 100%;
+}
